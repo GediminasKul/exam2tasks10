@@ -10,3 +10,5 @@ Pastaba: atvaizdavimas turi būti matomas pateikus formą ir pateikiamas
 ------------------------------------------------------------------- */
 
 let button = document.getElementById('submit-btn');
+let weightValue = document.getElementById('options');
+let input = document.getElementById('search');
