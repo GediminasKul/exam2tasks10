@@ -8,3 +8,10 @@ pamatyti jo pateikto svorio kovertavimą į:
 Pastaba: atvaizdavimas turi būti matomas pateikus formą ir pateikiamas
 <div id="output"></div> viduje, bei turi turėti bent minimalų stilių;
 ------------------------------------------------------------------- */
+
+let button = document.getElementById('submit-btn');
+
+button.addEventListener('click', function1());
+
+function1() {
+ }
