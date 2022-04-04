@@ -12,3 +12,21 @@ Pastaba: atvaizdavimas turi būti matomas pateikus formą ir pateikiamas
 let button = document.getElementById('submit-btn');
 let weightValue = document.getElementById('options');
 let input = document.getElementById('search');
+let output = document.getElementById('output-text');
+
+button.addEventListener('click', calculateFn);
+
+function calculateFn(event) {
+  event.preventDefault();
+  let num;
+  if (weightValue.value === 'Pounds') {
+    num = input.value * 2.2046;
+    output.textContent = `Your weight is ${num} pounds.`;
+  } else if (weightValue.value === 'Ounces') {
+    num = input.value * 35.274;
+    output.textContent = `Your weight is ${num} ounces.`;
+  } else if (weightValue.value === 'Grams') {
+    num = input.value * 1000;
+    output.textContent = `Your weight is ${num} grams.`;
+  }
+}
