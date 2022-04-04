@@ -63,3 +63,16 @@ form {
     font-size: 2em;
   }
 }
+
+.output-style {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  padding: 1rem;
+  background-color: white;
+}
+
+p {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
